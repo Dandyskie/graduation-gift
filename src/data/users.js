@@ -2,7 +2,7 @@ export const users = [
   {
     id: 1,
     name: "Della Safira",
-    photoUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+    photoUrl: "/img/della.jpeg",
     message: "Della, happy graduation! 🎓Satu fase sudah kamu selesaikan dengan baik, dan itu bukan hal kecil. Semoga semua pengalaman yang kamu dapet jadi bekal berharga untuk perjalanan berikutnya. Tetap jadi diri kamu yang kuat dan penuh semangat, karena hal-hal besar sudah nunggu kamu di depan 💫",
   },
   {
