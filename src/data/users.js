@@ -8,13 +8,13 @@ export const users = [
   {
     id: 2,
     name: "Nabila Azzahra",
-    photoUrl: "/public/img/nabila.jpg",
+    photoUrl: "/img/nabila.jpg",
     message: "Nabila, selamat atas kelulusanmu 🎉Hari ini jadi bukti kalau semua usaha dan kerja kerasmu nggak sia-sia. Semoga langkahmu ke depan selalu dipenuhi hal-hal baik, kesempatan besar, dan kebahagiaan yang kamu pantas dapetin. Jangan ragu buat terus maju, dunia masih luas banget buat kamu jelajahi 🌍",
   },
   {
     id: 3,
     name: "Linata Azzahra Santoso",
-    photoUrl: "/public/img/zahra.jpg",
+    photoUrl: "/img/zahra.jpg",
     message: "Linata, happy graduation Perjalanan yang kamu lewati sampai titik ini nggak mudah, tapi kamu berhasil ngelewatin semuanya dengan kuat. Semoga ke depannya kamu selalu dikasih jalan terbaik, terus berkembang, dan nggak pernah kehilangan semangat buat ngejar apa yang kamu impikan. Keep shining always🌟",
   },
 {
