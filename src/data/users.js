@@ -20,7 +20,7 @@ export const users = [
 {
 id: 4,
 name: "Dandy Rama Wiguna",
-photoUrl: "/public/img/dandy.jpg",
+photoUrl: "/img/dandy.jpg",
 message: "Diana, so proud of you! Your dedication is inspiring. Wishing you a future filled with amazing opportunities and endless joy. 🎊",
 },
 {
