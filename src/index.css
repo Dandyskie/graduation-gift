@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary text-secondary font-sans antialiased overflow-hidden selection:bg-accent selection:text-primary;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-[#1e293b]/80 border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)];
+  }
+  .neon-glow {
+    @apply shadow-[0_0_15px_rgba(56,189,248,0.5)];
+  }
+  .neon-glow-focus:focus {
+    @apply shadow-[0_0_15px_rgba(56,189,248,0.5)] border-accent;
+  }
+}
+
+/* Perspective for 3D flip */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Sparkle animation */
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
